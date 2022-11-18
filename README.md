@@ -1,1 +1,1 @@
-# KGAndSnap
+# Knowledge Graphs And Snap
