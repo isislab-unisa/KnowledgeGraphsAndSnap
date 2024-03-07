@@ -1,8 +1,13 @@
 # Knowledge Graphs And Snap
 
-This project proposes an extension of [Snap!](https://snap.berkeley.edu) to create and run SELECT SPARQL queries on Knowledge Graphs. The extension is realized by the `KGObjects.js` module. The resulting platform, KGsnap!, is freely available online at https://isislab-unisa.github.io/Snap/snap.html.
+This project proposes an extension of [Snap!](https://snap.berkeley.edu) to create and run SELECT SPARQL queries on Knowledge Graphs. The resulting platform, KGsnap!, is freely available online at https://isislab-unisa.github.io/Snap/snap.html.
 
-Examples of KGsnap! in use are reported in the `examples` folder.
+The extension is realized by the `KGObjects.js` module, as visible in the architecture visible in the following: 
+<img src="img/architecture.png" width="650"/>
+
+Examples of KGsnap! in use are reported in the `examples` folder. 
+
+
 
 # Local Installation
 To install KGSnap! locally, it is necessary to follow the procedure reported below:
