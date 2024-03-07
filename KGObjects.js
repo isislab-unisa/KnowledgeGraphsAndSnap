@@ -1232,10 +1232,10 @@ function QueryResult(table, error) {
 
 QueryResult.prototype.toString = function (){
     if(this.error === 1)
-        return 'Nessun Risultato.';
+        return 'No results.';
     if(this.error === 2)
-        return 'La query non è corretta.';
-    return this.table.rows() + ' risultati.';
+        return 'The query is wrong.';
+    return this.table.rows() + ' results.';
 }
 
 QueryResult.prototype.toCSV = function(){
@@ -1274,9 +1274,9 @@ function SearchResult(id, type, label, description, uri, error) {
 
 SearchResult.prototype.toString = function (){
     if(this.error === 1)
-        return 'Nessun Risultato.';
+        return 'No results.';
     if(this.error === 2)
-        return 'Qualcosa è andato storto, riprova.'
+        return 'Something went wrong, please try again.'
     return this.id;
 }
 
