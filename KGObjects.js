@@ -1234,7 +1234,7 @@ QueryResult.prototype.toString = function (){
     if(this.error === 1)
         return 'No results.';
     if(this.error === 2)
-        return 'The query is wrong.';
+        return 'Query is not correct.';
     return this.table.rows() + ' results.';
 }
 
