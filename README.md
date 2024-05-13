@@ -5,8 +5,8 @@ This project proposes an extension of [Snap!](https://snap.berkeley.edu) to crea
 The extension is realized by the `KGObjects.js` module, as visible in the architecture visible in the following: 
 <img src="img/architecture.png" width="650"/>
 
+Educational material that can be freely used to introduce Knowledge Graphs via Snap! is in the `educationalMaterial` folder. 
 Examples of KGsnap! in use are reported in the `examples` folder. 
-
 
 
 # Local Installation
