@@ -1,6 +1,6 @@
 This folder contains
-- exemplary projects in xml format that can be imported in https://isislab-unisa.github.io/Snap/snap.html and directly executed from there 
-- screenshots showing the SPARQL query authored via KGsnap!, returned results as data table, and a comment containing the corresponding query in natural language.
+- exemplary projects in xml format that can be imported in https://anonymous.4open.science/w/Snap-10CA/ and directly executed from there 
+- screenshots showing the SPARQL query authored via SPARQLSnap!, returned results as data table, and a comment containing the corresponding query in natural language.
 
 More in detail, examples are listed below:
 - The following image shows an example of object retrieval. Hence, SUBJECT and PREDICATE are known, and the SELECT query is interested in retrieving the corresponding OBJECT. The examplary query retrieves the BOILING POINT of the WATER. 
